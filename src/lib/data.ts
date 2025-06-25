@@ -1,3 +1,4 @@
+
 export const data = {
   name: "Nagarjun H",
   headline: "Software Engineer specializing in AI, Cloud, and Web Development.",
@@ -41,7 +42,7 @@ export const data = {
       title: "AI Powered Flashcard SaaS",
       tech: ["Next.Js", "OpenAI", "Stripe", "Firebase", "Clerk", "Material UI"],
       date: "July 2024",
-      description: "Built a SaaS platform with React.js and Next.js, offering secure authentication via Clerk, payment processing via Stripe, and AI-powered flashcard generation using OpenAI.",
+      description: "Built a SaaS platform with React.js and Next.js, offering secure authentication and payment processing via Stripe. Implemented AI-powered flashcard generation using the OpenAI API, enabling dynamic content creation for users. Ensured responsiveness and scalability across all devices, utilizing Material UI and TypeScript for a consistent user experience.",
       image: "https://placehold.co/600x400.png",
       aiHint: "flashcards education",
       github: "https://github.com/Nagarjun-07/Muhann-Flashcard-Software-as-a-Service"
@@ -50,7 +51,7 @@ export const data = {
       title: "SkinVal 2.0",
       tech: ["Next.js", "RAG", "Web Scraping", "AI"],
       date: "Ongoing",
-      description: "A skincare product recommending website that provides skin condition detection, and personalized product recommendations, blending advanced web scraping and RAG.",
+      description: "SkinVal is a skincare product recommending website that provides skin condition detection, and personalized product recommendations. The platform blends advanced web scraping, Retrieval-Augmented Generation (RAG) to create a truly intelligent skincare experience.",
       image: "https://i.ytimg.com/vi/wVjLAVlf0pk/maxresdefault.jpg",
       aiHint: "skincare products",
       link: "https://skinval.vercel.app",
@@ -60,7 +61,7 @@ export const data = {
       title: "Dolphin Doc Extractor",
       tech: ["Next.js", "Genkit AI", "Vercel", "PDF Processing"],
       date: "July 2024",
-      description: "An AI-powered web app to intelligently extract structured and unstructured data from uploaded PDF documents, enabling users to get context-aware answers to questions.",
+      description: "Dolphin-Doc Extractor is an AI-powered web application designed to intelligently extract structured and unstructured data from uploaded PDF documents. Built using Next.js, Genkit AI, and modern cloud deployment via Vercel, this project enables users to upload PDFs and receive context-aware answers to questions based on the document content.",
       image: "https://placehold.co/600x400.png",
       aiHint: "document analysis",
       link: "https://dolphin-doc-extractor.vercel.app/",
@@ -79,7 +80,7 @@ export const data = {
       title: "Storm Scout",
       tech: ["Flask", "OpenWeatherMap API", "Google Maps API"],
       date: "April 2024",
-      description: "A Flask web app providing real-time weather updates and travel suggestions using OpenWeatherMap and Google Maps APIs.",
+      description: "Individually developed a Flask-based web application that provides real-time weather updates, travel weather information, and activity suggestions using OpenWeatherMap and Google Maps APIs. Implemented a feature to display weather details of major cities along the travel route, enhancing planning and safety, with a user-friendly interface.",
       image: "https://placehold.co/600x400.png",
       aiHint: "weather map"
     },
@@ -87,7 +88,7 @@ export const data = {
       title: "Snack Snap Pantry Tracker",
       tech: ["Next.Js", "Firebase", "Google Analytics", "Vercel"],
       date: "June 2024",
-      description: "A dynamic web app using Next.js and Firebase for managing user data with full CRUD, with Google Analytics to track user interactions.",
+      description: "Developed a dynamic web application using Next.js and Firebase DB, implementing full CRUD operations for managing user data. Integrated Google Analytics to track user interactions and analyze real-time performance metrics, ensuring a data-driven approach to enhance user experience. Deployed the application on Vercel, leveraging its serverless functions for optimal scalability and performance.",
       image: "https://placehold.co/600x400.png",
       aiHint: "pantry food"
     }
