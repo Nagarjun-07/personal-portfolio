@@ -38,24 +38,33 @@ export const data = {
   ],
   projects: [
     {
+      title: "AI Powered Flashcard SaaS",
+      tech: ["Next.Js", "OpenAI", "Stripe", "Firebase", "Clerk", "Material UI"],
+      date: "July 2024",
+      description: "A SaaS platform with secure authentication and Stripe payments. Implemented AI-powered flashcard generation using the OpenAI API, with a responsive UI using Material UI.",
+      image: "https://placehold.co/600x400.png",
+      aiHint: "flashcards education",
+      github: "https://github.com/Nagarjun-07/Muhann-Flashcard-Software-as-a-Service"
+    },
+    {
       title: "SkinVal 2.0",
       tech: ["Next.js", "RAG", "Web Scraping", "AI"],
       date: "Ongoing",
-      description: "A skincare product recommending website that provides skin condition detection, and personalized product recommendations, blending advanced web scraping and Retrieval-Augmented Generation (RAG).",
+      description: "A skincare product recommending website that provides skin condition detection, and personalized product recommendations, blending advanced web scraping and RAG.",
       image: "https://placehold.co/600x400.png",
       aiHint: "skincare products",
       link: "https://skinval.vercel.app",
-      github: "https://github.com/Nagarjun-07/SkinVal-2.0"
+      github: "https://github.com/Nagarjun-07/Skinval-2.0"
     },
     {
       title: "Dolphin Doc Extractor",
       tech: ["Next.js", "Genkit AI", "Vercel", "PDF Processing"],
       date: "July 2024",
-      description: "An AI-powered web application to intelligently extract structured and unstructured data from uploaded PDF documents, enabling users to get context-aware answers to questions.",
+      description: "An AI-powered web app to intelligently extract structured and unstructured data from uploaded PDF documents, enabling users to get context-aware answers to questions.",
       image: "https://placehold.co/600x400.png",
       aiHint: "document analysis",
       link: "https://dolphin-doc-extractor.vercel.app/",
-      github: "https://github.com/Nagarjun-07/Dolphin-Doc-Extractor"
+      github: "https://github.com/Nagarjun-07/Dolphin-Doc_extractor"
     },
     {
       title: "AutismNetX Screening",
@@ -66,6 +75,22 @@ export const data = {
       aiHint: "neural network brain",
       github: "https://github.com/Nagarjun-07/AutismNetX-Screening-of-Autism-Using-Deep-Learning"
     },
+    {
+      title: "Storm Scout",
+      tech: ["Flask", "OpenWeatherMap API", "Google Maps API"],
+      date: "April 2024",
+      description: "A Flask web app providing real-time weather updates, travel weather info, and activity suggestions using OpenWeatherMap and Google Maps APIs.",
+      image: "https://placehold.co/600x400.png",
+      aiHint: "weather map"
+    },
+    {
+      title: "Snack Snap Pantry Tracker",
+      tech: ["Next.Js", "Firebase", "Google Analytics", "Vercel"],
+      date: "June 2024",
+      description: "A dynamic web app using Next.js and Firebase for managing user data with full CRUD. Integrated Google Analytics to track user interactions and performance metrics.",
+      image: "https://placehold.co/600x400.png",
+      aiHint: "pantry food"
+    }
   ],
   skills: {
     languages: ["Java", "Python (OOP)", "HTML", "CSS", "C"],
