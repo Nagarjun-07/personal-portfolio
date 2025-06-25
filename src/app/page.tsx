@@ -4,29 +4,19 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import Image from "next/image";
 import { Mail, User, Wrench, Award } from "lucide-react";
 import { data } from "@/lib/data";
 
 export default function Home() {
   return (
     <>
-      {/* Hero Section */}
-      <section id="hero" className="relative h-screen flex items-center justify-center text-center text-white">
-        <Image
-          src="/hero.png"
-          alt="Nagarjun H - Portfolio hero image"
-          fill
-          className="object-cover z-0"
-          priority
-          data-ai-hint="portrait professional"
-        />
-        <div className="absolute inset-0 bg-black/50 z-10" />
-        <div className="z-20 relative px-4 animate-fade-in-up">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-4">
+      <PageContainer>
+        {/* New Hero Section */}
+        <section id="hero" className="text-center py-20 md:py-32">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
             {data.name}
           </h1>
-          <p className="text-xl md:text-2xl text-primary-foreground/90 max-w-3xl mx-auto mb-8">
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-8">
             {data.headline}
           </p>
           <div className="flex flex-wrap justify-center items-center gap-4">
@@ -47,10 +37,8 @@ export default function Home() {
               </a>
             </Button>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <PageContainer>
         <div className="space-y-16 md:space-y-24">
           {/* About Section */}
           <Section id="about">
