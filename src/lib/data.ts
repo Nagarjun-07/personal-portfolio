@@ -41,7 +41,7 @@ export const data = {
       title: "AI Powered Flashcard SaaS",
       tech: ["Next.Js", "OpenAI", "Stripe", "Firebase", "Clerk", "Material UI"],
       date: "July 2024",
-      description: "A SaaS platform with secure authentication and Stripe payments. Implemented AI-powered flashcard generation using the OpenAI API, with a responsive UI using Material UI.",
+      description: "Built a SaaS platform with React.js and Next.js, offering secure authentication and payment processing via Stripe. Implemented AI-powered flashcard generation using the OpenAI API.",
       image: "https://placehold.co/600x400.png",
       aiHint: "flashcards education",
       github: "https://github.com/Nagarjun-07/Muhann-Flashcard-Software-as-a-Service"
