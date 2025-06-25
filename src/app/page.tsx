@@ -1,10 +1,10 @@
 import { PageContainer } from "@/components/ui/page-container";
 import { Section, SectionTitle } from "@/components/ui/section";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Mail } from "lucide-react";
+import { Mail, User, Wrench, Award } from "lucide-react";
 import { data } from "@/lib/data";
 
 export default function Home() {
@@ -19,21 +19,32 @@ export default function Home() {
           <p className="text-xl md:text-2xl text-primary max-w-3xl mx-auto mb-8 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
             {data.headline}
           </p>
-          <div className="flex justify-center items-center gap-4 animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
-            <Button asChild>
+          <div className="flex flex-wrap justify-center items-center gap-4 animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
+            <Button asChild size="lg">
               <a href={`mailto:${data.contact.email}`}>
                 <Mail /> Get in Touch
               </a>
             </Button>
-            <Button variant="secondary" asChild>
+            <Button variant="secondary" asChild size="lg">
               <Link href="/projects">View My Work</Link>
+            </Button>
+            <Button variant="secondary" asChild size="lg">
+              <Link href="/experience">My Experience</Link>
+            </Button>
+            <Button variant="secondary" asChild size="lg">
+              <a href="https://github.com/Nagarjun-07/Certifications" target="_blank" rel="noopener noreferrer">
+                <Award className="mr-2 h-4 w-4" /> Certificates
+              </a>
             </Button>
           </div>
         </Section>
 
         {/* About Section */}
         <Section id="about">
-          <SectionTitle>About Me</SectionTitle>
+          <SectionTitle>
+            <User className="inline-block mr-4 -mt-2 text-primary" />
+            About Me
+          </SectionTitle>
           <div className="space-y-4 text-lg text-muted-foreground leading-relaxed max-w-4xl mx-auto text-center">
             <p>
               I'm a passionate and driven software engineer with a strong foundation in machine learning, cloud technologies, and full-stack web development. My journey in tech has been fueled by a desire to build innovative solutions that solve real-world problems.
@@ -46,7 +57,10 @@ export default function Home() {
 
         {/* Skills Section */}
         <Section id="skills">
-          <SectionTitle>Skills</SectionTitle>
+          <SectionTitle>
+             <Wrench className="inline-block mr-4 -mt-2 text-primary" />
+            Skills
+          </SectionTitle>
           <Card className="shadow-lg border-2 border-border/60">
             <CardContent className="p-6">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -38,31 +38,33 @@ export const data = {
   ],
   projects: [
     {
-      title: "AI Powered Flashcard SaaS",
-      tech: ["Clerk", "Firebase", "Next.Js", "OpenAI", "Stripe API"],
+      title: "SkinVal 2.0",
+      tech: ["Next.js", "RAG", "Web Scraping", "AI"],
+      date: "Ongoing",
+      description: "A skincare product recommending website that provides skin condition detection, and personalized product recommendations, blending advanced web scraping and Retrieval-Augmented Generation (RAG).",
+      image: "https://placehold.co/600x400.png",
+      aiHint: "skincare products",
+      link: "https://skinval.vercel.app",
+      github: "https://github.com/Nagarjun-07/SkinVal-2.0"
+    },
+    {
+      title: "Dolphin Doc Extractor",
+      tech: ["Next.js", "Genkit AI", "Vercel", "PDF Processing"],
       date: "July 2024",
-      description: "Built a SaaS platform with React.js and Next.js, offering secure authentication and payment processing via Stripe. Implemented AI-powered flashcard generation using the OpenAI API.",
+      description: "An AI-powered web application to intelligently extract structured and unstructured data from uploaded PDF documents, enabling users to get context-aware answers to questions.",
       image: "https://placehold.co/600x400.png",
-      aiHint: "education technology",
-      link: "#",
+      aiHint: "document analysis",
+      link: "https://dolphin-doc-extractor.vercel.app/",
+      github: "https://github.com/Nagarjun-07/Dolphin-Doc-Extractor"
     },
     {
-      title: "Storm Scout",
-      tech: ["Flask", "OpenWeatherMap API", "Google Maps API"],
-      date: "April 2024",
-      description: "Developed a Flask based web application that provides real-time weather updates and travel weather information, with an interface to enter start and end locations.",
+      title: "AutismNetX Screening",
+      tech: ["Deep Learning", "Neural Networks", "Python"],
+      date: "May 2024",
+      description: "This project leverages advanced neural networks to analyze behavioral and developmental data, aiming to provide faster, more accessible, and accurate preliminary screening for autism.",
       image: "https://placehold.co/600x400.png",
-      aiHint: "weather map",
-      link: "#",
-    },
-    {
-      title: "Snack Snap Pantry Tracker",
-      tech: ["Next.Js", "Firebase", "Google Analytics", "Vercel"],
-      date: "June 2024",
-      description: "A dynamic web application using Next.js for managing pantry items, featuring full CRUD operations and integrated Google Analytics for user interaction tracking.",
-      image: "https://placehold.co/600x400.png",
-      aiHint: "inventory management",
-      link: "#",
+      aiHint: "neural network brain",
+      github: "https://github.com/Nagarjun-07/AutismNetX-Screening-of-Autism-Using-Deep-Learning"
     },
   ],
   skills: {

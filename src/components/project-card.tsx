@@ -18,21 +18,24 @@ type Project = {
 
 export function ProjectCard({ project }: { project: Project }) {
   return (
-    <Card className="flex flex-col h-full overflow-hidden transition-all duration-300 ease-in-out hover:shadow-2xl hover:-translate-y-2 border-2 border-border/60">
-      <CardHeader>
-        <div className="aspect-[3/2] relative mb-4">
+    <Card className="group flex flex-col h-full overflow-hidden transition-all duration-300 ease-in-out hover:shadow-2xl hover:-translate-y-1 border-2 border-border/60">
+      <CardHeader className="p-0">
+        <div className="aspect-[3/2] relative overflow-hidden">
           <Image
             src={project.image}
             alt={project.title}
             fill
-            className="object-cover rounded-t-lg"
+            className="object-cover rounded-t-lg transition-transform duration-500 ease-in-out group-hover:scale-105"
             data-ai-hint={project.aiHint}
           />
+           <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-black/10 to-transparent group-hover:from-black/40 transition-all duration-300"></div>
         </div>
-        <CardTitle className="font-headline text-2xl">{project.title}</CardTitle>
-        <CardDescription>{project.date}</CardDescription>
+        <div className="p-6">
+            <CardTitle className="font-headline text-2xl">{project.title}</CardTitle>
+            <CardDescription>{project.date}</CardDescription>
+        </div>
       </CardHeader>
-      <CardContent className="flex-grow">
+      <CardContent className="flex-grow pt-0 px-6">
         <p className="text-muted-foreground mb-4">{project.description}</p>
         <div className="flex flex-wrap gap-2">
           {project.tech.map((tech) => (
@@ -40,11 +43,11 @@ export function ProjectCard({ project }: { project: Project }) {
           ))}
         </div>
       </CardContent>
-      <CardFooter className="mt-auto pt-4">
+      <CardFooter className="mt-auto bg-secondary/20 p-4">
         <div className="flex w-full justify-end gap-2">
           {project.github && (
             <Button variant="ghost" size="icon" asChild>
-              <Link href={project.github} target="_blank" rel="noopener noreferrer">
+              <Link href={project.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Link>

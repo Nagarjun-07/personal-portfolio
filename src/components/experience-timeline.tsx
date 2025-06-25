@@ -34,7 +34,7 @@ export function ExperienceTimeline({ items, icon }: ExperienceTimelineProps) {
 
           {/* Right Side (Desktop) / Main Content on Mobile */}
           <div className={cn("ml-12 md:ml-0 flex-1", index % 2 === 0 ? "md:order-2" : "md:order-1 md:text-right")}>
-            <div className="bg-card p-6 rounded-lg border-2 border-border/60 shadow-lg">
+             <div className="bg-card/80 backdrop-blur-sm p-6 rounded-lg border-2 border-primary/20 shadow-xl shadow-primary/10 transition-all hover:shadow-primary/20 hover:border-primary/30">
               <h3 className="text-xl font-bold font-headline">{item.role || item.degree}</h3>
               <p className="text-primary font-semibold mb-3">{item.company || item.institution}</p>
               <div className="md:hidden mb-2">
