@@ -63,7 +63,7 @@ export const data = {
       description: "Dolphin-Doc Extractor is an AI-powered web application designed to intelligently extract structured and unstructured data from uploaded PDF documents. Built using Next.js, Genkit AI, and modern cloud deployment via Vercel, this project enables users to upload PDFs and receive context-aware answers to questions based on the document content.",
       link: "https://dolphin-doc-extractor.vercel.app/",
       github: "https://github.com/Nagarjun-07/Dolphin-Doc_extractor",
-      image: "(USER_IMAGE_0)",
+      image: "https://placehold.co/600x400.png",
       "data-ai-hint": "document data"
     },
     {
@@ -120,5 +120,3 @@ export const data = {
     "Cybersecurity and its fundamentals – Zscaler",
   ],
 };
-
-    
