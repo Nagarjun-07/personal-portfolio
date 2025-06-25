@@ -51,7 +51,7 @@ export const data = {
       tech: ["Next.js", "RAG", "Web Scraping", "AI"],
       date: "Ongoing",
       description: "A skincare product recommending website that provides skin condition detection, and personalized product recommendations, blending advanced web scraping and RAG.",
-      image: "https://placehold.co/600x400.png",
+      image: "https://i.ytimg.com/vi/wVjLAVlf0pk/maxresdefault.jpg",
       aiHint: "skincare products",
       link: "https://skinval.vercel.app",
       github: "https://github.com/Nagarjun-07/Skinval-2.0"

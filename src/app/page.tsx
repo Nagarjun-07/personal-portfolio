@@ -13,7 +13,7 @@ export default function Home() {
       <PageContainer>
         {/* New Hero Section */}
         <section id="hero" className="text-center py-20 md:py-32">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-4 text-primary">
             {data.name}
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-8">
