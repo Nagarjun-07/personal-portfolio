@@ -44,8 +44,6 @@ export const data = {
       date: "July 2024",
       description: "Built a SaaS platform with React.js and Next.js, offering secure authentication and payment processing via Stripe. Implemented AI-powered flashcard generation using the OpenAI API, enabling dynamic content creation for users. Ensured responsiveness and scalability across all devices, utilizing Material UI and TypeScript for a consistent user experience.",
       github: "https://github.com/Nagarjun-07/Muhann-Flashcard-Software-as-a-Service",
-      image: "https://placehold.co/600x400.png",
-      "data-ai-hint": "flashcards study"
     },
     {
       title: "SkinVal 2.0",
@@ -54,7 +52,6 @@ export const data = {
       description: "SkinVal is a skincare product recommending website that provides skin condition detection, and personalized product recommendations. The platform blends advanced web scraping, Retrieval-Augmented Generation (RAG) to create a truly intelligent skincare experience.",
       link: "https://skinval.vercel.app",
       github: "https://github.com/Nagarjun-07/Skinval-2.0",
-      image: "https://i.ytimg.com/vi/wVjLAVlf0pk/maxresdefault.jpg",
     },
     {
       title: "Dolphin Doc Extractor",
@@ -63,8 +60,6 @@ export const data = {
       description: "Dolphin-Doc Extractor is an AI-powered web application designed to intelligently extract structured and unstructured data from uploaded PDF documents. Built using Next.js, Genkit AI, and modern cloud deployment via Vercel, this project enables users to upload PDFs and receive context-aware answers to questions based on the document content.",
       link: "https://dolphin-doc-extractor.vercel.app/",
       github: "https://github.com/Nagarjun-07/Dolphin-Doc_extractor",
-      image: "https://placehold.co/600x400.png",
-      "data-ai-hint": "document data"
     },
     {
       title: "FederatedSpeechEval",
@@ -72,8 +67,6 @@ export const data = {
       date: "August 2024",
       description: "A federated learning project for evaluating speech-to-text models across multiple clients. It computes client-specific metrics like Loss, WER, and BLEU scores, and visualizes model performance across training rounds.",
       github: "https://github.com/Nagarjun-07/whisper-model-v2-using-Federated-learning",
-      image: "https://placehold.co/600x400.png",
-      "data-ai-hint": "federated learning"
     },
     {
       title: "AutismNetX Screening",
@@ -81,8 +74,6 @@ export const data = {
       date: "May 2024",
       description: "This project leverages advanced neural networks to analyze behavioral and developmental data, aiming to provide faster, more accessible, and accurate preliminary screening for autism.",
       github: "https://github.com/Nagarjun-07/AutismNetX-Screening-of-Autism-Using-Deep-Learning",
-      image: "https://placehold.co/600x400.png",
-      "data-ai-hint": "neural network"
     },
     {
       title: "Storm Scout",
@@ -90,8 +81,6 @@ export const data = {
       date: "April 2024",
       description: "Individually developed a Flask-based web application that provides real-time weather updates, travel weather information, and activity suggestions using OpenWeatherMap and Google Maps APIs. Implemented a feature to display weather details of major cities along the travel route, enhancing planning and safety, with a user-friendly interface.",
       github: "https://github.com/Nagarjun-07/Storm_scout",
-      image: "https://placehold.co/600x400.png",
-      "data-ai-hint": "weather map"
     },
     {
       title: "Snack Snap Pantry Tracker",
@@ -100,8 +89,6 @@ export const data = {
       description: "Developed a dynamic web application using Next.js and Firebase DB, implementing full CRUD operations for managing user data. Integrated Google Analytics to track user interactions and analyze real-time performance metrics, ensuring a data-driven approach to enhance user experience. Deployed the application on Vercel, leveraging its serverless functions for optimal scalability and performance.",
       link: "https://nosh-nexus-snack-snap.vercel.app/",
       github: "https://github.com/Nagarjun-07/Nosh-Nexus-Snack-Snap",
-      image: "https://placehold.co/600x400.png",
-      "data-ai-hint": "pantry food"
     }
   ],
   skills: {

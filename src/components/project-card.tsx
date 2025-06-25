@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -12,24 +11,11 @@ type Project = {
   description: string;
   link?: string;
   github?: string;
-  image?: string;
-  "data-ai-hint"?: string;
 };
 
 export function ProjectCard({ project }: { project: Project }) {
   return (
     <Card className="group flex flex-col h-full overflow-hidden transition-all duration-300 ease-in-out hover:shadow-2xl hover:-translate-y-1 border-2 border-border/60">
-      {project.image && (
-        <div className="relative h-48 w-full overflow-hidden">
-          <Image
-            src={project.image}
-            alt={`Screenshot of ${project.title}`}
-            fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
-            data-ai-hint={project['data-ai-hint']}
-          />
-        </div>
-      )}
       <CardHeader>
         <CardTitle className="font-headline text-2xl">{project.title}</CardTitle>
         <CardDescription>{project.date}</CardDescription>
