@@ -15,11 +15,11 @@ export default function Home() {
       <section id="hero" className="relative h-screen flex items-center justify-center text-center text-white">
         <Image
           src="/hero.png"
-          alt="Nagarjun standing in front of a modern glass building"
+          alt="Nagarjun H - Portfolio hero image"
           fill
           className="object-cover z-0"
           priority
-          data-ai-hint="man building"
+          data-ai-hint="portrait professional"
         />
         <div className="absolute inset-0 bg-black/50 z-10" />
         <div className="z-20 relative px-4 animate-fade-in-up">
