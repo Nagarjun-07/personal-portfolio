@@ -41,7 +41,7 @@ export const data = {
       title: "AI Powered Flashcard SaaS",
       tech: ["Next.Js", "OpenAI", "Stripe", "Firebase", "Clerk", "Material UI"],
       date: "July 2024",
-      description: "Built a SaaS platform with React.js and Next.js, offering secure authentication and payment processing via Stripe. Implemented AI-powered flashcard generation using the OpenAI API.",
+      description: "Built a SaaS platform with React.js and Next.js, offering secure authentication via Clerk, payment processing via Stripe, and AI-powered flashcard generation using OpenAI.",
       image: "https://placehold.co/600x400.png",
       aiHint: "flashcards education",
       github: "https://github.com/Nagarjun-07/Muhann-Flashcard-Software-as-a-Service"
@@ -79,7 +79,7 @@ export const data = {
       title: "Storm Scout",
       tech: ["Flask", "OpenWeatherMap API", "Google Maps API"],
       date: "April 2024",
-      description: "A Flask web app providing real-time weather updates, travel weather info, and activity suggestions using OpenWeatherMap and Google Maps APIs.",
+      description: "A Flask web app providing real-time weather updates and travel suggestions using OpenWeatherMap and Google Maps APIs.",
       image: "https://placehold.co/600x400.png",
       aiHint: "weather map"
     },
@@ -87,16 +87,19 @@ export const data = {
       title: "Snack Snap Pantry Tracker",
       tech: ["Next.Js", "Firebase", "Google Analytics", "Vercel"],
       date: "June 2024",
-      description: "A dynamic web app using Next.js and Firebase for managing user data with full CRUD. Integrated Google Analytics to track user interactions and performance metrics.",
+      description: "A dynamic web app using Next.js and Firebase for managing user data with full CRUD, with Google Analytics to track user interactions.",
       image: "https://placehold.co/600x400.png",
       aiHint: "pantry food"
     }
   ],
   skills: {
     languages: ["Java", "Python (OOP)", "HTML", "CSS", "C"],
-    frameworks_technologies: ["React.Js", "Next.Js", "Flask", "Machine learning"],
-    databases: ["MySQL", "Firestore/Firebase", "Pinecone"],
-    apis_tools: ["OpenAI", "Stripe", "Clerk", "OpenWeather", "Google Maps API", "Google Analytics", "Git", "GitHub", "VScode", "Vercel", "Canva", "Figma", "Google Sheets", "MS Word"],
+    frameworks_and_libraries: ["React.Js", "Next.Js", "Flask"],
+    ai_and_ml: ["Machine learning", "Deep Learning", "Neural Networks", "RAG", "OpenAI", "Genkit AI"],
+    databases: ["MySQL", "Firestore", "Pinecone"],
+    tools_and_platforms: ["Git", "GitHub", "VScode", "Vercel", "Firebase", "Clerk", "Stripe", "Google Analytics"],
+    apis: ["OpenWeatherMap API", "Google Maps API"],
+    design_and_productivity: ["Figma", "Canva", "Google Sheets", "MS Word"],
     soft_skills: ["Communication", "Problem solving", "Collaboration", "Adaptability", "Networking"],
   },
   certifications: [
