@@ -3,11 +3,10 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-import { Menu, X, Code2 } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
-import { data } from '@/lib/data';
 
 const navLinks = [
   { href: '/', label: 'About' },
@@ -43,8 +42,10 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 max-w-screen-2xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2 font-bold text-lg">
-          <Code2 className="h-6 w-6 text-primary" />
-          <span>{data.name}</span>
+          <div className="flex items-center justify-center h-7 w-7 bg-primary text-primary-foreground rounded-md font-black text-sm">
+            NH
+          </div>
+          <span>Nagarjun Portfolio</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">
@@ -63,9 +64,11 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side="right" className="w-[240px] sm:w-[300px]">
               <div className="p-4">
-                 <Link href="/" className="flex items-center gap-2 font-bold text-lg mb-8">
-                    <Code2 className="h-6 w-6 text-primary" />
-                    <span>{data.name}</span>
+                 <Link href="/" className="flex items-center gap-2 font-bold text-lg mb-8" onClick={() => setMobileMenuOpen(false)}>
+                    <div className="flex items-center justify-center h-7 w-7 bg-primary text-primary-foreground rounded-md font-black text-sm">
+                      NH
+                    </div>
+                    <span>Nagarjun Portfolio</span>
                 </Link>
                 <nav className="flex flex-col gap-6">
                   {navLinks.map((link) => (

@@ -4,9 +4,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 import { data } from "@/lib/data";
-import { AboutMeEditor } from "@/components/ai/about-me-editor";
 
 export default function Home() {
   return (
@@ -35,27 +34,22 @@ export default function Home() {
         {/* About Section */}
         <Section id="about">
           <SectionTitle>About Me</SectionTitle>
-          <div className="grid md:grid-cols-5 gap-8 md:gap-12 items-start">
-            <div className="md:col-span-3 space-y-4 text-lg text-muted-foreground leading-relaxed">
-              <p>
-                I'm a passionate and driven software engineer with a strong foundation in machine learning, cloud technologies, and full-stack web development. My journey in tech has been fueled by a desire to build innovative solutions that solve real-world problems.
-              </p>
-              <p>
-                From developing AI-powered SaaS platforms to creating intelligent data extraction tools, I thrive on tackling challenges and continuously learning. I am a collaborative team player with leadership experience, dedicated to delivering high-quality, scalable, and user-centric applications.
-              </p>
-            </div>
-            <div className="md:col-span-2">
-              <AboutMeEditor />
-            </div>
+          <div className="space-y-4 text-lg text-muted-foreground leading-relaxed max-w-4xl mx-auto text-center">
+            <p>
+              I'm a passionate and driven software engineer with a strong foundation in machine learning, cloud technologies, and full-stack web development. My journey in tech has been fueled by a desire to build innovative solutions that solve real-world problems.
+            </p>
+            <p>
+              From developing AI-powered SaaS platforms to creating intelligent data extraction tools, I thrive on tackling challenges and continuously learning. I am a collaborative team player with leadership experience, dedicated to delivering high-quality, scalable, and user-centric applications.
+            </p>
           </div>
         </Section>
 
         {/* Skills Section */}
         <Section id="skills">
-          <SectionTitle>Technical Skills</SectionTitle>
+          <SectionTitle>Skills</SectionTitle>
           <Card className="shadow-lg border-2 border-border/60">
             <CardContent className="p-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {Object.entries(data.skills).map(([category, skills]) => (
                   <div key={category}>
                     <h3 className="text-xl font-bold mb-4 capitalize font-headline">{category.replace(/_/g, ' ')}</h3>
